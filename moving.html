@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="movingcss/moving.css">
+<link rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+</head>
+
+<body>   
+    
+    
+    <header>
+<div class="header1">
+<img src="images/moving.jpg" alt="moving.jpg" class="logom" />
+</div>    
+<nav>
+      <div class="uh" id="uhu">
+        
+
+ <select onchange="location = this.value;">
+ 
+  <option value="moving.html">Home</option>
+  <option value="aboutuspage.html">About</option>
+<option value="packingpage.html">Packing</option>
+<option value="contactpage.html">Contacts</option>
+
+</select></div>
+    
+    <ul>
+        <li><a href="moving.html" class="o" id="mru" >Home</a></li>
+        <li><a href="aboutuspage.html" class="o">About</a></li>
+        <li><a href="packingpage.html" class="o">Packing</a></li>
+         <li><a href="contactpage.html" class="o">Contacts</a></li>
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<li><i class="fa-solid fa-phone"></i>&nbsp; &nbsp;7356831781</li>
+         
+       
+    </ul>
+</nav>
+</header>
+    
+  
+   <div class=" mm">
+
+<div class="mySlides fade" style="width:100%">
+  <img src="images/slide_01.jpg" style="width:100%;height: 500px;">
+  
+</div>
+
+<div class="mySlides fade" style="width:100%">
+  <img src="images/slide_02.jpg" style="width:100%;height: 500px;">
+  <div class="text" id="t">Moving made easy!</div>
+</div>
+    <div class="textdot" id="t" style="text-align:center;">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span>  
+</div>
+</div>
+<br>
+
+
+<script>    
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+    
+    
+    
+    <br>
+    
+    
+     <h1 class="para3"><center>MOVING PALACE PACKERS AND MOVERS <BR><BR><BR><U>
+      Organize Your Move</U></center></h1>
+<div class="row1">
+  <div class="column1" id="c1">
+    <a href="images/shifting3.jpg" target="_blank"><img src="images/shifting3.jpg" id="image_1" class="zoom"></a> 
+  </div>
+  <div class="column1">
+   <a href="images/shifting2.jpg" target="_blank"><img src="images/shifting2.jpg" id="image_2" class="zoom"></a>  
+   
+  </div>
+  <div class="column1" id="c3">  
+    <a href="images/shifting1.jpg" target="_blank"><img src="images/shifting1.jpg" id="image_3" class="zoom"></a>  
+   </div>
+</div>   <BR><BR>
+    
+    
+    
+    
+    
+    
+    
+    <div class="row2">
+  <div class="column2 left2">
+    <img src="images/image5.jpg" id="image_4" height="100%" width="500">
+  </div>
+  <div class="column2 right2">
+    <h1 class="para3">What we do</h1>
+<p>
+  Welcome to Moving Palace  Packers and Movers Pvt. Ltd we are one of the trusted and very affordable packers and movers in India. Our services are available all over India with complete facilities at very reasonable fares. hence if you are looking for a stressful free complete relocation facility by the best and most certified packers and movers company then must contact us anytime to avail of our services and safely shift your household goods, office items, vehicles, pets, and anything that you want in a risk freeway. Moving Palace Packers and Movers Pvt. Ltd has every single moving solution for you.</p>
+        
+  </div>
+</div>
+<BR><BR><BR><BR><BR><BR>
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    <h1 id="col3" class="para3"><center>Services</center></h1>
+<div class="row3">
+  <div class="column3" >
+    <img src="images/local.jpeg" class="datelogo"  height="100px" width="70%">  
+      <h3 class="para_a1">Home Shifting Services</h3>
+      <p class="para_a2"> Moving Palace Packers and Movers are reputed house relocation services provider the city. We have a dedicated team for packing and loading of household goods. They pack each and every item or goods with proper care without a single damage.</p>
+        
+  </div>
+  <div class="column3">
+  <img src="images/car1.jpg" class="datelogo"  height="100px" width="70%">  
+      <h3 class="para_a1"> Transportation Services</h3>
+      <p class="para_a2">Moving Palace Packers and Movers offer specialist Warehouse & Storage Servicese and transportation services through a vast network of trusted operators.</p>
+  </div>
+  <div class="column3">  
+      <img src="images/home.jpeg" class="datelogo"  height="100px" width="70%">  
+      <h3 class="para_a1">Local Shifting Service</h3>
+      <p class="para_a2">Moving Palace Packers and Movers offer specialist local relocation and transportation services through a vast network of trusted operators.</p>
+        
+  </div>
+</div>     <BR><BR><BR><BR><BR>
+    
+    
+    
+    
+     <div class="news">
+<h1 class="gallerymargin para3"><center>WorkGallery</center></h1>
+         
+         
+     <div class="row4">
+         
+  <div class="column4">
+   <a href="images/slide_02.jpg" target="_blank"><img src="images/slide_02.jpg" alt="slide2" class="image_a1"></a>
+  </div>
+         
+         
+  <div class="column4">
+  <a href="images/domestic.jpeg" target="_blank"><img src="images/domestic.jpeg" alt="slide2" class="image_a2"></a>
+  </div>
+         
+  <div class="column4">  
+      <a href="images/intercity.jpg" target="_blank"><img src="images/intercity.jpg" alt="slide2" class="image_a3"></a>
+  </div>
+         
+</div>  <br><br>
+
+<div class="row4">
+         
+  <div class="column4">
+   <a href="images/k.png" target="_blank"><img src="images/k.png" alt="slide2" class="image_a1"></a>
+  </div>
+         
+         
+  <div class="column4">
+  <a href="images/l.jpeg" target="_blank"><img src="images/l.jpeg" alt="slide2" class="image_a2"></a>
+  </div>
+         
+  <div class="column4">  
+      <a href="images/m.jpeg" target="_blank"><img src="images/m.jpeg" alt="slide2" class="image_a3"></a>
+  </div>
+         
+</div>  <br><br>
+
+
+        
+         
+       <div class="row4">
+         
+  <div class="column4">
+   <a href="images/office.jpeg" target="_blank"><img src="images/office.jpeg" alt="slide2" class="image_a1"></a>
+  </div>
+         
+         
+  <div class="column4">
+  <a href="images/newa.jpg" target="_blank"><img src="images/newa.jpg" alt="slide2" class="image_a2"></a>
+  </div>
+         
+  <div class="column4">  
+      <a href="images/newb.jpg" target="_blank"><img src="images/newb.jpg" alt="slide2" class="image_a3"></a>
+  </div>
+           
+         
+</div>   <br><br><br><br><br>  
+         
+    </div> <BR>
+    
+    
+    
+    
+    
+    
+    
+ <div class="row6">
+  <div id="c1" class="f1">
+      <h2 class="footerpara"><center>Get in touch</center></h2>
+
+    <center>
+        Moving Palace Packers and Movers<br>
+        Vallachira Chathakudam,Thrissur<br>
+         Kerala 680562<br>
+         Ph : 7356831781<br>
+           &nbsp;&nbsp;&nbsp;&nbsp; : 7907278977<br>
+        E-mail:<a id="dec" href="gmail.com" style="color: white;">movingpalace7@gmail.com</a></center>
+</div>
+  
+  <div id="c2" class="f2">
+      <h2 class="footerpara"><center>Menu</center></h2>
+
+  <p class="cent"><a href="aboutuspage.html" style="color: 
+
+white;" id="dec">About</a></p>
+        <p class="cent"><a id="dec" href="packingpage.html" style="color: 
+
+white;">Packing</a></p>
+       
+   
+        <p class="cent"><a id="dec" href="contactpage.html" style="color: 
+
+white;">Contacts</a></p>
+    </div>
+    <div id="c3" class="f3">
+        <h2 class="footerpara"><center>Follow us</center></h2>
+        
+  <div class="cent123">
+      <a href="https://accounts.google.com/signin/v2/identifier?hl=EN&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="icon" ><i class="fa-brands fa-google-plus-g"></i></a>&nbsp;&nbsp;
+      <a href="https://twitter.com/login" class="icon"><i class="fa-brands fa-twitter"></i></a>&nbsp;
+                <a href="https://en-gb.facebook.com/login/" class="icon"><i class="fa-brands fa-facebook"></i></a>&nbsp;
+                <a href="https://in.pinterest.com/login/" class="icon"><i class="fa-brands fa-pinterest"></i></a>&nbsp;   
+                <a href="https://in.linkedin.com/" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+    </div>
+    <div id="c4" class="f4">
+        <h2 class="footerpara"><center>Join our newsletter</center></h2>
+    <p class="cent" style="color: white">And always stay informed of the latest company news 
+
+and events!</p> 
+    &nbsp; &nbsp;<button class="btn"><b>Sign Up</b></button> 
+        </div>
+    </div> 
+    
+    <div class="copyr">
+        &copy;2023 MOVING CO. All rights reserved. <a href="privacy" id="privacy">Privacy policy</a><br><br>
+    </div>
+        
+    
+</body>
+</html>
